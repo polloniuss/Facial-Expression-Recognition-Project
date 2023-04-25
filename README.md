@@ -25,7 +25,6 @@ To run the project, open the notebook and run the code cells.
 ## Arborescence
 
 ```bash
-|-- README.md
 |-- emotion_classifier.ipynb
 |-- dataset
 |   |-- fer2013.csv
