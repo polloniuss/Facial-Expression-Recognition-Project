@@ -4,9 +4,10 @@ This is a facial expression recognition project that uses deep learning techniqu
 
 ## Installation
 
-Clone the project repository to your local machine.
-Open the project folder in Jupyter Notebook.
-Run the emotion_classifier.ipynb file on MLTGPU.
++ Clone the project repository on MLTGPU.
++ **Please download "fer2013.csv" on [kaggle](https://www.kaggle.com/datasets/deadskull7/fer2013) and put it in "dataset" folder.** The dataset is too big to be uploaded on GitHub (301.1 MB).
++ Open the project folder in Jupyter Notebook.
++ Run the emotion_classifier.ipynb file.
 
 ## Requirements
 
@@ -18,20 +19,15 @@ Run the emotion_classifier.ipynb file on MLTGPU.
 - Scikit-learn
 - Pillow
 
-## Usage
-
-To run the project, open the notebook and run the code cells.
-
 ## Arborescence
 
 ```bash
 |-- dataset
-|   |-- fer2013.csv
+|   |-- fer2013.csv         ! Missing file to download
 |   |-- fer2013.bib
 |   |-- README
 |   |-- Submission.csv
 |-- emotion_classifier.ipynb
-|-- model.pt
 |-- Project_Report.pdf
 |-- README.md
 ```
